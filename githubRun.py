@@ -20,8 +20,8 @@ def get_time_stamp():
 def loginGetCode(user, password):
     r"""1、登录获取Code
 
-    :param user: 577258035@qq.com
-    :param password: diyuan!tf365QWE
+    :param user: 
+    :param password: 
     :return: is_phone, location
     """
 
@@ -197,4 +197,4 @@ if __name__ == '__main__':
     ##刷步数
     res = main(user, password, 12034, 31902)
     # 推送消息
-    pushMessage(pushplus_token, "刷步接口调用", res)
+    pushMessage(pushplus_token, "刷步数", res)
