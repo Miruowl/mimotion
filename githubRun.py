@@ -195,6 +195,6 @@ if __name__ == '__main__':
     password = sys.argv[2]
     pushplus_token = sys.argv[3]
     ##刷步数
-    res = main(user, password, 12034, 25902)
+    res = main(user, password, 20034, 25902)
     # 推送消息
     pushMessage(pushplus_token, "运动步数", res)
